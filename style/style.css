@@ -91,3 +91,12 @@ div{
     border-radius: 4px;
     border: solid 1px rgb(192, 192, 132);
 }
+
+@media (max-width: 600px) {
+    .menu-navegacion-elementos{
+        margin: 5px;
+    }
+    .Titulo{
+        margin: 20% 5%;
+    }
+}
