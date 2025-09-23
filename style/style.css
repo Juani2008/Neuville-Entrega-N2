@@ -1,0 +1,93 @@
+body{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+
+/* Menu navegacion todas las pags. */
+.menu-navegacion-elementos{
+display: flex;
+justify-content: space-around;
+list-style: none;
+margin: 10px;
+background-color: rgb(231, 231, 182);
+padding: 10px;
+border-radius: 5px;
+    border: solid 1px rgb(192, 192, 132);
+}
+
+/* Pagina: Inicio */
+.Titulo{
+    background-color: rgb(231, 231, 182);
+    margin: 5% 20%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo-Imagen{
+    width: 150px;
+    height: auto;
+}
+.Titulo-Parrafo{
+    margin: 10px;
+}
+
+
+
+/* Pagina: Hogar, Urbano, Viajes */
+.Titulo-Paginas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 182);
+    margin: 4%;
+    margin-top: 10px;
+    font-size: 10px;
+    border-radius: 4px;
+    border: solid 1px rgb(192, 192, 132);
+}
+.Productos-Paginas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(231, 231, 182);
+    margin: 4%;
+    border-radius: 4px;
+    border: solid 1px rgb(192, 192, 132);
+    border-bottom: 50px;
+}
+.Producto-Items{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    background-color: rgb(231, 231, 182);
+    border-radius: 4px;
+    border: solid 1px rgb(192, 192, 132);
+}
+.Productos-Imagen{
+    width: 150px;
+    margin: 20px;
+}
+
+/* Contacto */
+.Contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 182);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+.Contacto-Imagen{
+    width: 30px;
+    margin: 5%;
+}
+
+div{
+    border-radius: 4px;
+    border: solid 1px rgb(192, 192, 132);
+}
