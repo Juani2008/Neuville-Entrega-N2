@@ -1,0 +1,22 @@
+//import
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+
+.Contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: color-primario;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+.Contacto-Imagen{
+    @include imagenes (30px, auto);
+    margin: 5%;
+}
+.Contacto{
+    border-radius: 4px;
+    background-color: $color-primario;
+}

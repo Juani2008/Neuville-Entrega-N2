@@ -1,0 +1,26 @@
+//import
+@use "../utilities/variables" as *;
+
+
+body{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+
+div {
+    border-radius: 4px;
+    border: solid 1px $color-secundario;
+}
+
+
+//responsive
+@media (max-width: 600px) {
+    .menu-navegacion-elementos{
+        margin: 5px;
+    }
+    .Titulo{
+        margin: 20% 5%;
+    }
+}
